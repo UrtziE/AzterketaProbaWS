@@ -171,7 +171,7 @@ console.log("13 galdera: "+ book.ISBN+book.author+book.title)
             reject("Zerbait gaizki atera da");
          }},4000)
         
-      })
+      })//a
    }
    const hasi = Date.now()
    Promise.all([promesa1(),promesa2()])//Array bat pasa behar zaio.JARRI PARENTESIAK 
